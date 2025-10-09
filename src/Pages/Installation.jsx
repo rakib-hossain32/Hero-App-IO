@@ -5,28 +5,24 @@ import InstallList from "../Components/InstallList";
 
 const Installation = () => {
   const [installLists, setInstallLists] = useState([]);
-  const [sortList, setSortList] = useState('')
+  const [sortList, setSortList] = useState("");
 
-  const sortLists = (() => { 
-    if (sortList === 'size-asc') {
-        return [...installLists].sort((a,b)=> a.size - b.size)
+  const sortLists = (() => {
+    if (sortList === "size-asc") {
+      return [...installLists].sort((a, b) => a.downloads - b.downloads);
+    } else if (sortList === "size-desc") {
+      return [...installLists].sort((a, b) => b.downloads - a.downloads);
+    } else {
+      return installLists;
     }
-    else if (sortList === 'size-desc'){
-        return [...installLists].sort((a,b)=> b.size - a.size)
-    }
-    else{
-        return installLists
-    }
-   })()
+  })();
 
   useEffect(() => {
     const savedList = getLocalStorage();
     if (savedList) setInstallLists(savedList);
   }, []);
 
-
   console.log(sortLists);
- 
 
   return (
     <div className="w-11/12 mx-auto">
@@ -49,15 +45,19 @@ const Installation = () => {
             onChange={(e) => setSortList(e.target.value)}
           >
             <option value="none">Sort by Size</option>
-            <option value="size-asc">Low-&gt;High</option>
             <option value="size-desc">High-&gt;Low</option>
+            <option value="size-asc">Low-&gt;High</option>
           </select>
         </label>
       </div>
       <div className="">
-        {
-            sortLists.map(iList=><InstallList key={iList.id} installList={iList} setInstallLists={setInstallLists}/>)
-        }
+        {sortLists.map((iList) => (
+          <InstallList
+            key={iList.id}
+            installList={iList}
+            setInstallLists={setInstallLists}
+          />
+        ))}
       </div>
     </div>
   );

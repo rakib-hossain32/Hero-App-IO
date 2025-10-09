@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
 import { getLocalStorage } from "../utility/LocalStorage";
+import { toast, ToastContainer } from "react-toastify";
 
 const InstallList = ({ installList, setInstallLists }) => {
-  const { downloads, ratingAvg, size, title, image,id } = installList;
+  const { downloads, ratingAvg, size, title, image, id } = installList;
+
+//     useEffect(()=>{
+//     const getLocalStored = getLocalStorage()
+//     console.log(getLocalStored)
+//   },[])
 
   const handleRemoveToLS = (id) => {
     const existList = getLocalStorage();
+    toast("Wow! App Uninstall");
+
+    //   toast.success("Wow! Installed App");
     let updatedList = existList.filter((a) => a.id !== id);
     setInstallLists(updatedList);
 
@@ -45,7 +54,8 @@ const InstallList = ({ installList, setInstallLists }) => {
           </div>
         </div>
         <div className="">
-          <button onClick={()=> handleRemoveToLS(id)}
+          <button
+            onClick={() => handleRemoveToLS(id)}
             className={`font-semibold md:text-xl rounded-xl py-3.5 px-3 md:px-5 text-white bg-[#00D390]`}
           >
             Uninstall

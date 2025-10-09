@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
@@ -14,19 +14,22 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { setLocalStorage } from "../utility/LocalStorage";
+import { getLocalStorage, setLocalStorage } from "../utility/LocalStorage";
+import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const location = useLocation();
   //   console.log(location.state);
 
-  const apps = location.state;
+  const app = location.state;
 
   const [installed, setInstalled] = useState(false);
+  const [disable, setDisable] = useState(false);
 
-  const handleInstall = (apps) => {
+  const handleInstall = (app) => {
     setInstalled(true);
-    setLocalStorage(apps);
+    setLocalStorage(app);
+    toast.success("Wow! Installed App");
   };
 
   const {
@@ -39,7 +42,19 @@ const AppDetails = () => {
     companyName,
     title,
     image,
-  } = apps;
+  } = app;
+
+  useEffect(() => {
+    const getLocalStored = getLocalStorage();
+
+    const findLocalStorage = getLocalStored.find((a) => a.id === app.id);
+    console.log(Boolean(findLocalStorage));
+    // if (findLocalStorage) {
+    //   setDisable(true);
+    // }
+
+    // console.log(getLocalStored)
+  }, [app]);
 
   //   console.log(ratings);
 
@@ -92,8 +107,8 @@ const AppDetails = () => {
             </div>
           </div>
           <button
-            onClick={() => handleInstall(apps)}
-            disabled={installed}
+            onClick={() => handleInstall(app)}
+            disabled={disable}
             className={`font-semibold text-xl rounded-xl py-3.5 px-5 mt-7 text-white 
         ${installed ? "bg-[#4f917c] cursor-not-allowed" : "bg-[#00D390]"}`}
           >
@@ -123,6 +138,7 @@ const AppDetails = () => {
         </h3>
         <p className="text-[#627382] text-xl">{description}</p>
       </div>
+      {/* <ToastContainer /> */}
     </div>
   );
 };
