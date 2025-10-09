@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
 import { getLocalStorage } from "../utility/LocalStorage";
@@ -7,10 +7,10 @@ import { toast, ToastContainer } from "react-toastify";
 const InstallList = ({ installList, setInstallLists }) => {
   const { downloads, ratingAvg, size, title, image, id } = installList;
 
-//     useEffect(()=>{
-//     const getLocalStored = getLocalStorage()
-//     console.log(getLocalStored)
-//   },[])
+  //     useEffect(()=>{
+  //     const getLocalStored = getLocalStorage()
+  //     console.log(getLocalStored)
+  //   },[])
 
   const handleRemoveToLS = (id) => {
     const existList = getLocalStorage();

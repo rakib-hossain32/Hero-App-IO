@@ -24,7 +24,7 @@ const AppDetails = () => {
   const app = location.state;
 
   const [installed, setInstalled] = useState(false);
-  const [disable, setDisable] = useState(false);
+  //   const [disable, setDisable] = useState(false);
 
   const handleInstall = (app) => {
     setInstalled(true);
@@ -48,10 +48,11 @@ const AppDetails = () => {
     const getLocalStored = getLocalStorage();
 
     const findLocalStorage = getLocalStored.find((a) => a.id === app.id);
-    console.log(Boolean(findLocalStorage));
-    // if (findLocalStorage) {
-    //   setDisable(true);
-    // }
+    // console.log(findLocalStorage);
+    if (findLocalStorage) {
+      //   setDisable(true);
+      setInstalled(true);
+    }
 
     // console.log(getLocalStored)
   }, [app]);
@@ -108,7 +109,7 @@ const AppDetails = () => {
           </div>
           <button
             onClick={() => handleInstall(app)}
-            disabled={disable}
+            disabled={installed}
             className={`font-semibold text-xl rounded-xl py-3.5 px-5 mt-7 text-white 
         ${installed ? "bg-[#4f917c] cursor-not-allowed" : "bg-[#00D390]"}`}
           >

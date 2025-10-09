@@ -30,7 +30,7 @@ const Banner = () => {
             <img src={Play} alt="" className="" /> Google Play
           </NavLink>
           <NavLink
-            to="https://play.google.com/store/apps?hl=en"
+            to="https://www.apple.com/app-store/"
             target="blank"
             className="text-[#001931] font-semibold text-xl flex items-center gap-2 btn py-6"
           >

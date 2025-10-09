@@ -39,7 +39,7 @@ const Home = () => {
           <NavLink
             to="/apps"
             className="font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] py-4
-        px-8 rounded-2xl text-white"
+        px-8 rounded-xl text-white"
           >
             Show All
           </NavLink>

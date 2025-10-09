@@ -22,7 +22,7 @@ const Installation = () => {
     if (savedList) setInstallLists(savedList);
   }, []);
 
-  console.log(sortLists);
+//   console.log(sortLists);
 
   return (
     <div className="w-11/12 mx-auto">
