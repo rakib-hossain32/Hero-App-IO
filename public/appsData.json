@@ -1,0 +1,398 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLKf5OyGVj2HgYbKswHtnAs0dhozlkO_uzOA&s",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "id": 1,
+    "description": "Subway Surfers is a fast-paced endless runner game where players dash through busy subways, avoiding trains and obstacles while collecting coins and power-ups. It’s colorful, action-packed, and continuously updated with new city themes and challenges.",
+    "size": 180,
+    "reviews": 39000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 2,
+    "description": "Duolingo makes learning languages fun and engaging through gamified lessons, challenges, and streak tracking. Whether you're a beginner or advanced learner, its interactive exercises help build speaking, listening, and reading skills quickly.",
+    "size": 120,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7700000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/3aWGqSf3T_p3F6wc8FFvcZcnjWlxpZdNaqFVEvPwQ1gTOPkVoZwq6cYvfK9eCkwCXbRY",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 3,
+    "description": "Canva is a design tool that empowers users to create professional-quality graphics, posters, presentations, and social media content with ease. It offers thousands of free templates and drag-and-drop functionality for beginners and experts alike.",
+    "size": 250,
+    "reviews": 5000000,
+    "ratingAvg": 4.8,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 4,
+    "description": "Netflix is a global streaming platform that offers a huge library of movies, TV series, documentaries, and original productions. With personalized recommendations and offline downloads, it’s designed for seamless entertainment on any device.",
+    "size": 190,
+    "reviews": 11000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 4500000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 5,
+    "description": "TikTok is a short-form video platform that lets users create, watch, and share entertaining content with music, filters, and effects. Its algorithm delivers personalized feeds, making it one of the most engaging apps worldwide.",
+    "size": 250,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jKU64njy8urP89V1O63eJxMtvWjDGETPlHVIhDv9WZAYzsSxRWyWZkUlBJZj_HbkHA",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft",
+    "id": 6,
+    "description": "Microsoft Teams is a collaboration platform designed for chat, video conferencing, file sharing, and teamwork. It integrates seamlessly with Microsoft 365, making it ideal for professional and educational environments.",
+    "size": 320,
+    "reviews": 4800000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "image": "https://www.scdn.co/i/_global/open-graph-default.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Spotify is a music streaming platform with millions of songs, podcasts, and playlists. It allows users to discover new artists, create their own playlists, and enjoy personalized recommendations based on listening history.",
+    "size": 140,
+    "reviews": 10000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "YouTube is the world’s largest video platform where users can watch, upload, and share content. From tutorials to entertainment, it caters to billions of viewers worldwide with personalized recommendations and live streaming.",
+    "size": 220,
+    "reviews": 35000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 20500000 }
+    ]
+  },
+  {
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtPV1zYJfBPveATOCg5xpTusn.7._fPw5CYPvOiIZfkLoYIT3UjtJ448OhRmygnycMC6EukmwgMdy_xTc_tNl2o-&format=source",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 9,
+    "description": "Zoom is a video conferencing app widely used for online meetings, webinars, and virtual events. With easy screen sharing, chat, and breakout rooms, it’s perfect for work, education, and personal communication.",
+    "size": 180,
+    "reviews": 7000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_mZGy0ZLktn9NL_4__5MbK49kpYHU8YPkUgvvdpPxt3O6Q=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Google Maps helps users navigate the world with accurate maps, real-time traffic updates, satellite imagery, and detailed route planning. It’s a powerful tool for exploring cities, finding businesses, and getting directions anywhere.",
+    "size": 210,
+    "reviews": 22000000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/bqliWUqt7QfpSC4EybIXMT_QZclpYN9ANItoMTXltshu8v0HTnFdfU_pboHzz7Zs7pqX1AfLE7eFVU8S0aSI",
+    "title": "PUBG Mobile",
+    "companyName": "Krafton",
+    "id": 11,
+    "description": "PUBG Mobile is an action-packed battle royale game where 100 players fight to be the last one standing. With stunning graphics, realistic gameplay, and team modes, it’s one of the most popular mobile games globally.",
+    "size": 900,
+    "reviews": 27000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://1000logos.net/wp-content/uploads/2017/02/Instagram-app-logo.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 12,
+    "description": "Instagram is a photo and video sharing platform that connects millions of people through stories, reels, and live streaming. It’s a hub for creators, brands, and communities to express creativity and stay connected.",
+    "size": 150,
+    "reviews": 36000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 11000000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 13,
+    "description": "Facebook is a global social media platform where people connect with friends, share updates, photos, and videos, and join communities. It’s one of the most used apps worldwide for communication and networking.",
+    "size": 220,
+    "reviews": 57000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 25500000 }
+    ]
+  },
+  {
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source&h=210",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 14,
+    "description": "Discord is a community-based chat platform built for gamers, creators, and friends. It supports voice, video, and text chat with powerful moderation tools, custom bots, and private or public servers.",
+    "size": 180,
+    "reviews": 9000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 4300000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 15,
+    "description": "LinkedIn is a professional networking platform that connects people across industries. It’s ideal for job seekers, recruiters, and businesses to build networks, share achievements, and grow professionally.",
+    "size": 180,
+    "reviews": 5000000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 2700000 }
+    ]
+  },
+  {
+    "image": "https://daisy.org/wp-content/uploads/2020/05/Play-Books.webp",
+    "title": "Google Play Books",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Google Play Books offers millions of eBooks and audiobooks from around the world. It provides personalized reading experiences, bookmarks, highlights, and offline access, making it a top choice for book lovers.",
+    "size": 100,
+    "reviews": 2000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 17,
+    "description": "Notion is an all-in-one productivity and note-taking app that lets you create wikis, databases, to-do lists, and more. It’s loved by individuals and teams for its clean design and flexible workspace features.",
+    "size": 160,
+    "reviews": 1500000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 18,
+    "description": "Snapchat opens right to the camera, making it easy to capture and share moments with friends. Chat with Bitmojis, play with filters, and explore Spotlight to see trending short videos.",
+    "size": 120,
+    "reviews": 39000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2400000 },
+      { "name": "2 star", "count": 1600000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 10800000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 19,
+    "description": "Shop millions of products with the Amazon Shopping app. Enjoy fast delivery, secure payment, and personalized recommendations. Track your orders easily and access exclusive Prime deals.",
+    "size": 95,
+    "reviews": 89000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2700000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4600000 },
+      { "name": "4 star", "count": 17000000 },
+      { "name": "5 star", "count": 63000000 }
+    ]
+  },
+  {
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBaQDG.nPeYqpMXSUQbV6ZbBSEA8DmA1ZCb0FCzRLHXfKXejobNiJckRWqvjQKuaEKrlx_TU6BUv9BKoWuTnon7o-&format=source",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 20,
+    "description": "CapCut is a powerful and easy-to-use video editing app designed for mobile creators. With its professional-grade tools, users can trim, merge, add transitions, text, and effects effortlessly. It’s ideal for creating social media content, short films, or cinematic reels.",
+    "size": 300,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/21kRx-CJsUL._h1_.png",
+    "title": "Twitch",
+    "companyName": "Twitch Interactive, Inc.",
+    "id": 21,
+    "description": "Twitch is the world’s leading live streaming platform for gamers, creators, and communities. Watch live gameplay, esports tournaments, podcasts, and creative shows, or broadcast your own content to millions of viewers around the world. Twitch offers interactive chat, real-time reactions, and a vibrant global community.",
+    "size": 150,
+    "reviews": 5400000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  },
+  {
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_kJg2c0003mHqp575hoB4ZRsTLZnYS7GGAvF-6l0sVcQA=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Khan Academy",
+    "companyName": "Khan Academy",
+    "id": 22,
+    "description": "Khan Academy is a free educational platform that provides high-quality lessons, courses, and exercises in subjects like math, science, history, economics, and more. With a mission to make world-class education accessible to everyone, Khan Academy offers interactive practice, instructional videos, and personalized learning paths for students of all ages.",
+    "size": 60,
+    "reviews": 1700000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1130000 }
+    ]
+  }
+]
