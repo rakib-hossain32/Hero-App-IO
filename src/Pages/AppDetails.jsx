@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router";
+import { useLocation } from "react-router";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
@@ -144,8 +144,12 @@ const AppDetails = () => {
         <h3 className=" font-semibold text-2xl mb-6">Ratings</h3>
         <div style={{ width: "100%", height: 400 }}>
           <ResponsiveContainer>
-            <BarChart data={sortedRatings} layout="vertical">
-              <CartesianGrid strokeDasharray="3 3" />
+            <BarChart
+              data={sortedRatings}
+              layout="vertical"
+              margin={{ top: 10, right: 40,  bottom: 10 }}
+            >
+              
               <XAxis type="number" />
               <YAxis dataKey="name" type="category" />
               <Tooltip />

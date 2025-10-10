@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import useProducts from "../Hooks/useProducts";
 import AppCard from "../Components/AppCard";
 import AppNotFound from "./AppNotFound";
@@ -7,29 +7,48 @@ import LoadingSpinner from "./LoadingSpinner";
 const Apps = () => {
   const { apps, loading } = useProducts();
 
+  // const [search, setSearch] = useState("");
+  // const [NotFound, setNotFound] = useState(true);
+
+  // //   console.log(search);
+  // const term = search.trim().toLowerCase();
+
+  // const searchedApps = term
+  //   ? apps.filter((app) => app.title.toLowerCase().includes(term))
+  //   : apps;
+
+  // // console.log(Boolean(search))
+
+  // useEffect(() => {
+  //   if (searchedApps.length) {
+  //     setNotFound(true);
+  //   } else {
+  //     setNotFound(false);
+  //   }
+  // }, [searchedApps]);
+
+  // console.log(Boolean(searchedApps.length))
+
   const [search, setSearch] = useState("");
-  const [NotFound, setNotFound] = useState(true);
+  // const [NotFound, setNotFound] = useState(true);
+  const [searching, setSearching] = useState(false);
 
-  //   console.log(search);
+  const handleSearch = (e) => {
+    setSearch(e.target.value);
+    setSearching(true);
+    setTimeout(() => {
+      setSearching(false);
+    }, 500);
+  };
+
   const term = search.trim().toLowerCase();
-
-  
-
   const searchedApps = term
     ? apps.filter((app) => app.title.toLowerCase().includes(term))
     : apps;
 
-  // console.log(Boolean(search))
-
-  useEffect(() => {
-    if (searchedApps.length) {
-      setNotFound(true);
-    } else {
-      setNotFound(false);
-    }
-  }, [searchedApps]);
-
-  console.log(Boolean(searchedApps.length))
+  // useEffect(() => {
+  //   setNotFound(searchedApps.length > 0);
+  // }, [searchedApps]);
 
   // if(searchedApps){
   //   setNotFound(true)
@@ -37,7 +56,7 @@ const Apps = () => {
   // else{
   //    setNotFound(false)
   // }
-  
+
   // console.log(NotFound);
 
   //   const finalApps = searchedApps ? searchedApps : <AppNotFound/>
@@ -76,27 +95,23 @@ const Apps = () => {
             </g>
           </svg>
           <input
-            type="search Apps"
+            type="search"
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={handleSearch}
             placeholder="Search"
           />
         </label>
       </div>
-      {loading ? (
+      {loading || searching ? (
         <LoadingSpinner />
-      ) : (
-        <div className="">
-          {NotFound ? (
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-              {searchedApps.map((app) => (
-                <AppCard key={app.id} app={app} />
-              ))}
-            </div>
-          ) : (
-            <AppNotFound />
-          )}
+      ) : searchedApps.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          {searchedApps.map((app) => (
+            <AppCard key={app.id} app={app} />
+          ))}
         </div>
+      ) : (
+        <AppNotFound />
       )}
     </div>
   );
