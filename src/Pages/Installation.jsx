@@ -2,10 +2,14 @@ import React, { useEffect, useState } from "react";
 import { getLocalStorage } from "../utility/LocalStorage";
 
 import InstallList from "../Components/InstallList";
+import LoadingSpinner from "./LoadingSpinner";
 
 const Installation = () => {
   const [installLists, setInstallLists] = useState([]);
   const [sortList, setSortList] = useState("");
+  const [gettingApp, setGettingApp] = useState(true);
+
+  // console.log(gettingApp);
 
   const sortLists = (() => {
     if (sortList === "size-desc") {
@@ -20,6 +24,7 @@ const Installation = () => {
   useEffect(() => {
     const savedList = getLocalStorage();
     if (savedList) setInstallLists(savedList);
+    setGettingApp(false);
   }, []);
 
   // console.log(sortLists);
@@ -51,13 +56,17 @@ const Installation = () => {
         </label>
       </div>
       <div className="">
-        {sortLists.map((iList) => (
-          <InstallList
-            key={iList.id}
-            installList={iList}
-            setInstallLists={setInstallLists}
-          />
-        ))}
+        {gettingApp ? (
+          <LoadingSpinner />
+        ) : (
+          sortLists.map((iList) => (
+            <InstallList
+              key={iList.id}
+              installList={iList}
+              setInstallLists={setInstallLists}
+            />
+          ))
+        )}
       </div>
     </div>
   );
