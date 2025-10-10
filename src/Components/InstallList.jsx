@@ -14,6 +14,7 @@ const InstallList = ({ installList, setInstallLists }) => {
 
   const handleRemoveToLS = (id) => {
     const existList = getLocalStorage();
+    // console.log(existList)
     toast("Wow! App Uninstall");
 
     //   toast.success("Wow! Installed App");

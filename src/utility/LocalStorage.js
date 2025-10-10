@@ -3,14 +3,14 @@ const getLocalStorage = () => {
   return existApp;
 };
 
-const setLocalStorage = (apps) => {
+const setLocalStorage = (app) => {
   const existApp = getLocalStorage();
 
   let updatedApp = [];
   if (existApp) {
-    updatedApp = [...existApp, apps];
+    updatedApp = [...existApp, app];
   } else {
-    updatedApp.push(apps);
+    updatedApp.push(app);
   }
 
   const stringifyData = JSON.stringify(updatedApp);

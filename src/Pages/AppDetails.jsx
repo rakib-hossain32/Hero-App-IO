@@ -47,6 +47,8 @@ const AppDetails = () => {
   useEffect(() => {
     const getLocalStored = getLocalStorage();
 
+    console.log(getLocalStored)
+
     const findLocalStorage = getLocalStored.find((a) => a.id === app.id);
     // console.log(findLocalStorage);
     if (findLocalStorage) {
