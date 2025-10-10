@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router";
+import { useLocation, useParams } from "react-router";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
@@ -21,14 +21,26 @@ const AppDetails = () => {
   const location = useLocation();
   //   console.log(location.state);
 
+  // const {id} = useParams()
+
+  // const {apps} = useProducts()
+
+  // console.log(apps)
+
+  // const findApp = apps.find(a=> String(a.id) == id)
+
+  // console.log(findApp)
+
+  // console.log(id)
+
   const app = location.state;
 
   const [installed, setInstalled] = useState(false);
   //   const [disable, setDisable] = useState(false);
 
   const handleInstall = (app) => {
-    setInstalled(true);
     setLocalStorage(app);
+    setInstalled(true);
     toast.success("Wow! Installed App");
   };
 
@@ -44,19 +56,27 @@ const AppDetails = () => {
     image,
   } = app;
 
+  // useEffect(() => {
+  //   const getLocalStored = getLocalStorage();
+
+  //   console.log(getLocalStored);
+
+  //   const findLocalStorage = getLocalStored.find((a) => a.id === app.id);
+  //   // console.log(findLocalStorage);
+  //   if (findLocalStorage) {
+  //     //   setDisable(true);
+  //     setInstalled(true);
+  //   }
+
+  //   // console.log(getLocalStored)
+  // }, [app]);
+
   useEffect(() => {
     const getLocalStored = getLocalStorage();
-
-    // console.log(getLocalStored)
-
     const findLocalStorage = getLocalStored.find((a) => a.id === app.id);
-    // console.log(findLocalStorage);
     if (findLocalStorage) {
-      //   setDisable(true);
       setInstalled(true);
     }
-
-    // console.log(getLocalStored)
   }, [app]);
 
   //   console.log(ratings);

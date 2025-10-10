@@ -13,11 +13,13 @@ const Apps = () => {
   //   console.log(search);
   const term = search.trim().toLowerCase();
 
+  
+
   const searchedApps = term
     ? apps.filter((app) => app.title.toLowerCase().includes(term))
     : apps;
 
-  // console.log(searchedApps)
+  // console.log(Boolean(search))
 
   useEffect(() => {
     if (searchedApps.length) {
@@ -26,6 +28,8 @@ const Apps = () => {
       setNotFound(false);
     }
   }, [searchedApps]);
+
+  console.log(Boolean(searchedApps.length))
 
   // if(searchedApps){
   //   setNotFound(true)

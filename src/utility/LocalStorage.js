@@ -1,6 +1,6 @@
 const getLocalStorage = () => {
   const existApp = JSON.parse(localStorage.getItem("installApp"));
-  return existApp;
+  return existApp ? existApp : [];
 };
 
 const setLocalStorage = (app) => {

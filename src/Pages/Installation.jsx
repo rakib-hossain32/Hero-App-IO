@@ -9,9 +9,9 @@ const Installation = () => {
 
   const sortLists = (() => {
     if (sortList === "size-desc") {
-      return [...installLists].sort((a, b) => a.downloads - b.downloads);
-    } else if (sortList === "size-asc") {
       return [...installLists].sort((a, b) => b.downloads - a.downloads);
+    } else if (sortList === "size-asc") {
+      return [...installLists].sort((a, b) => a.downloads - b.downloads);
     } else {
       return installLists;
     }
