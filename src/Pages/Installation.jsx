@@ -8,9 +8,9 @@ const Installation = () => {
   const [sortList, setSortList] = useState("");
 
   const sortLists = (() => {
-    if (sortList === "size-asc") {
+    if (sortList === "size-desc") {
       return [...installLists].sort((a, b) => a.downloads - b.downloads);
-    } else if (sortList === "size-desc") {
+    } else if (sortList === "size-asc") {
       return [...installLists].sort((a, b) => b.downloads - a.downloads);
     } else {
       return installLists;
@@ -22,7 +22,7 @@ const Installation = () => {
     if (savedList) setInstallLists(savedList);
   }, []);
 
-//   console.log(sortLists);
+  // console.log(sortLists);
 
   return (
     <div className="w-11/12 mx-auto">
