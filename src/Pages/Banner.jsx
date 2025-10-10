@@ -10,7 +10,7 @@ const Banner = () => {
       <div className=" text-center">
         <h1 className=" font-bold text-[#001931] text-7xl">
           We Build <br />
-          <span className=" font-black  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          <span className=" font-black  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent max-md:text-6xl">
             Productive
           </span>{" "}
           Apps
@@ -24,7 +24,7 @@ const Banner = () => {
           <NavLink
             to="https://play.google.com/store/apps?hl=en"
             target="blank"
-            className="text-[#001931] font-semibold text-xl flex items-center gap-2 btn py-6"
+            className="text-[#001931] font-semibold md:text-xl flex items-center gap-2 btn py-6"
           >
             {" "}
             <img src={Play} alt="" className="" /> Google Play
@@ -32,10 +32,10 @@ const Banner = () => {
           <NavLink
             to="https://www.apple.com/app-store/"
             target="blank"
-            className="text-[#001931] font-semibold text-xl flex items-center gap-2 btn py-6"
+            className="text-[#001931] font-semibold md:text-xl flex items-center gap-2 btn py-6"
           >
             {" "}
-            <img src={appStore} alt="" className=" max-md:container" /> App Store
+            <img src={appStore} alt="" className=" " /> App Store
           </NavLink>
         </div>
         <img src={Hero} alt="" className="  inline " />
